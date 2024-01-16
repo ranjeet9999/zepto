@@ -1,0 +1,73 @@
+
+
+/* TagsInput.css */
+
+/* Container styles */
+.tag-input-container {
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px; /* Add margin to separate the container from the text field */
+  width: 60%;
+}
+
+/* Name item styles */
+.name-item {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-name{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.item-letter{
+  height: 30px;
+  border-radius: 50%;
+  width: 30px;
+  text-align: center;
+  background-color: rgb(216, 116, 198);
+}
+
+/* Chip styles */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 16px;
+  padding: 4px 8px;
+  margin: 4px;
+}
+
+.chip-remove-btn {
+  margin-left: 8px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #757575;
+}
+/* Add a blue line between text field and container */
+.line-between {
+  border-bottom: 2px solid blue;
+  margin-top: 10px; /* Adjust margin to your preference */
+}
+
+/* Remove border of text field */
+input {
+  border: none;
+  outline: none;
+  padding: 5px; /* Add padding for spacing */
+}
+
+img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
